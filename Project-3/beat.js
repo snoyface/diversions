@@ -86,7 +86,7 @@ function rowAttrsFromTrack(track) {
         // more about it at:
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
         'data-tempo': track.echo ? track.echo.audio_summary.tempo : -1,
-        'duration_ms': track.duration_ms 
+        'data-duration_ms': track.duration
     };
 
 
