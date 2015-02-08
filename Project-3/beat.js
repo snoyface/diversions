@@ -142,7 +142,7 @@ function cellsFromTrackAndAttrs(track, attrs) {
         ['tempo', attrs['data-tempo'] > 0 ? // if we have a number
             Math.round(attrs['data-tempo']) : // round it
             '-',
-        ['duration', attrs['data-duration_ms']]
+        ['cell duration', attrs['data-duration_ms']]
         ] // otherwise, display it as '-'
     ];
 
